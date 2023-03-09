@@ -6,7 +6,6 @@ html,body{
     font-family: sans-serif;  
 }
 h1{
-    text-align: center;
     color: aquamarine;
     font-size: 3rem;
 }
@@ -16,9 +15,18 @@ h2,p{
     font-size: 1.3rem;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo,img{
+    width: 5%;
+border-radius: 100%;
+
+}
 
 nav, ul{
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
